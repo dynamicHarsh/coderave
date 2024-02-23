@@ -783,20 +783,20 @@ a {
 }
 
 .padding-top {
-  padding-top: 70px;
+  padding-top: 45px;
 }
 @media (min-width: 992px) {
   .padding-top {
-    padding-top: 100px;
+    padding-top: 70px;
   }
 }
 
 .padding-bottom {
-  padding-bottom: 70px;
+  padding-bottom: 45px;
 }
 @media (min-width: 992px) {
   .padding-bottom {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
   }
 }
 
@@ -2805,12 +2805,18 @@ ol {
 .widget.widget-author .widget-author__thumb img {
   object-fit: cover;
 }
-
+.partner__item__simple{
+  padding: .5rem .5rem;
+  display: grid;
+  place-items: center;
+}
 .partner__item {
   padding: .5rem .5rem;
+  
   background-color: #1d253b;
   display: grid;
   place-items: center;
+  
 }
 
 .partner__item--style2 {
