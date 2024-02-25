@@ -1727,6 +1727,7 @@ ol {
 @media not all and (pointer: coarse) {
   .social__link:hover {
     background-color: #00ffa3;
+    color: black;
   }
   .social__link:hover svg {
     color: #000000;
