@@ -1,6 +1,6 @@
 const year = new Date().getFullYear();
-const sixthOfApril = new Date(year, 3,6).getTime();
-const sixthOfAprilNextYear = new Date(year + 1, 3, 6).getTime();
+const sixthOfApril = new Date(year, 3,12).getTime();
+const sixthOfAprilNextYear = new Date(year + 1, 3,13 ).getTime();
 const month = new Date().getMonth();
 
 // countdown
